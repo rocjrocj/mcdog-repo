@@ -8,10 +8,11 @@ html, body {
 	line-height: 26px;
 	letter-spacing: 1.66px;
 	color: #000;
+	background-color: #F3F3F3;
 }
 
 header {
-	height: 688px;
+	height: 682px;
 	position: relative;
 	background-color: #17475B;
 	color: #fff;
@@ -23,7 +24,7 @@ header .container {
 	z-index: 99;
 }
 header h1 {
-	padding: 100px 0 50px 0;
+	padding: 187px 0 70px 0;
 	margin: 0;
 }
 header h1 img {
@@ -38,7 +39,7 @@ header p {
 }
 header .hBak {
 	position: absolute;
-	bottom: 100px;
+	bottom: 80px;
 	width: 100%;
 	font-family: 'LatoBlack', sans-serif;
 	font-size: 505px;
@@ -49,20 +50,20 @@ header .hBak {
 	/*overflow: hidden;*/
 }
 
-section[role="banner"] {
+section[role="banner"].pre {
 	background: #B2BB1E;
 	/*height: 150px;*/
 }
-section[role="banner"] .save_the_date {
+section[role="banner"].pre .save_the_date {
 	width: 488px;
 	margin: 0 auto;
 	padding: 35px 0 45px 0;
 }
-section[role="banner"] .ico_cal {
+section[role="banner"].pre .ico_cal {
 	float: left;
 	padding-right: 30px;
 }
-section[role="banner"] .ico_cal img {
+section[role="banner"].pre .ico_cal img {
 	max-width: 71px;
 	max-height: 79px;
 }
@@ -75,7 +76,7 @@ section[role="banner"] .save {
 	text-transform: uppercase;
 	padding: 10px 0;
 }
-section[role="banner"] .nov21 {
+section[role="banner"].pre .nov21 {
 	font-family: 'LatoBlack', sans-serif;
 	font-size: 47px;
 	color: #FFF;
@@ -83,11 +84,11 @@ section[role="banner"] .nov21 {
 	line-height: 24px;
 	text-transform: uppercase;
 }
-section[role="banner"] .ico_caret {
+section[role="banner"].pre .ico_caret {
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
-	background-color: #fff;
+	background-color: #F3F3F3;
 	text-align: center;
 }
 .ico_caret img {
@@ -95,14 +96,169 @@ section[role="banner"] .ico_caret {
 	height: 13px;
 	vertical-align: top;
 }
-main {
+/* post */
+section[role="banner"].post {
+	background: #659BC5;
+	color: #fff;
+	/*height: 150px;*/
+}
+/*section[role="banner"] .post .save_the_date {
+	width: 488px;
+	margin: 0 auto;
+	padding: 35px 0 45px 0;
+}*/
+
+
+section[role="banner"].post .donations {
+	position: relative;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 43px 0;
+}
+section[role="banner"].post .donations .col-md-6, .col-md-8, .col-md-3, .col-md-2 {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+section[role="banner"].post .pipe {
+	position: absolute;
+	top: -20px;
+	width: 1px;
+	height: 100px;
+	background-color: #fff;
+	/*margin-right: 26px;*/
+}
+section[role="banner"].post .alumni {
+}
+
+section[role="banner"].post .alumni .ico_grad {
+	float: left;
+	padding-right: 10px;
+}
+section[role="banner"].post .alumni .ico_grad img {
+	width: 58px;
+	height: 55px;
+}
+section[role="banner"].post .alumni .don_percent {
+	font-family: 'LatoBlack', sans-serif;
+	font-size: 47px;
+	color: #FFF;
+	letter-spacing: 1.11px;
+	float: left;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+section[role="banner"].post .alumni .don_progress {
+	width: 376px;
+	height: 48px;
+	background: #FFF;
+	float: left;
+	border-radius: 100px;
+	/*display: inline;
+	float: left;
+	 Rectangle 5: 
+	background: #B2BB1E;*/
+}
+section[role="banner"].post .alumni .alumni_given {
+	font-family: 'LatoRegular', sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	letter-spacing: 1.52px;
+	line-height: 24px;
+	text-transform: uppercase;
+	/*clear: left;*/
+}
+section[role="banner"].post .gifts {
+	margin: 0 auto;
+}
+
+section[role="banner"].post .gifts .present {
+	float: left;
+	padding-right: 10px;
+	padding-left: 25px;
+}
+section[role="banner"].post .gifts .present img {
+	width: 35px;
+	height: 43px;
+}
+section[role="banner"].post .gifts .gift_amount {
+	font-family: 'LatoBlack', sans-serif;
+	font-size: 47px;
+	color: #FFF;
+	letter-spacing: 1.11px;
+}
+section[role="banner"].post .gifts .gifts_today	 {
+	font-family: 'LatoRegular', sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	letter-spacing: 1.52px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+section[role="banner"].post .raised {
+}
+
+section[role="banner"].post .raised .heart {
+	float: left;
+	padding-right: 10px;
+	padding-left: 25px;
+}
+section[role="banner"].post .raised .heart img {
+	width: 40px;
+	height: 41px;
+}
+section[role="banner"].post .raised .raised_amount {
+	font-family: 'LatoBlack', sans-serif;
+	font-size: 47px;
+	color: #FFF;
+	letter-spacing: 1.11px;
+}
+section[role="banner"].post .raised .raised_today {
+	font-family: 'LatoRegular', sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 1.52px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+section[role="banner"].post .ico_caret {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	background-color: #F3F3F3;
 	text-align: center;
 }
-h2 {
+.post .ico_caret img {
+	width: 26px;
+	height: 13px;
+	vertical-align: top;
+}
+main {
+	position: relative;
+	text-align: center;
+	margin-top: 56px;
+}
+main .bak_line {
+	position: absolute;
+	top: 17px;
+	height: 1px;
+	width: 100%;
+	background-color: #659BC5;
+}
+main h2 {
+	position: relative;
 	font-family: 'LatoBold', sans-serif;
 	font-size: 35px;
 	color: #659BC5;
 	letter-spacing: 4.71px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #F3F3F3;
+	z-index: 99;
+	width: 480px;
+}
+main .vid {
+	margin-top: 68px;
+	padding: 0;
 }
 main blockquote {
 	font-family: 'LatoRegular', sans-serif;
@@ -111,6 +267,7 @@ main blockquote {
 	letter-spacing: 1.78px;
 	line-height: 42px;
 	border-left: none;
+	margin: 112px 0 40px 0;
 }
 main cite {
 	font-family: 'LatoRegular', sans-serif;
@@ -125,12 +282,14 @@ footer {
 	color: #fff;
 	text-align: center;
 	position: relative;
-	height: 688px;
+	/*height: 688px;*/
 	overflow: hidden;
+	margin-top: 126px;
 }
 footer .container {
 	position: relative;
 	z-index: 99;
+	margin-top: 90px;
 }
 footer h3 {
 	font-family: 'LatoLight', sans-serif;
@@ -149,17 +308,29 @@ footer h4 {
 	letter-spacing: 1.84px;
 	line-height: 26px;
 	text-transform: uppercase;
+	margin: 20px 0 60px 0;
+}
+footer .photos {
+	width: 945px;
+	margin: 0 auto;
 }
 footer .photos img {
 	max-width: 300px;
 	max-height: 191px;
 }
 footer p {
+	clear: both;
+	max-width: 750px;
+	margin: 0 auto;
 	font-family: 'LatoRegular', sans-serif;
 	font-size: 17px;
 	color: #FFF;
 	letter-spacing: 1.65px;
 	line-height: 26px;
+	padding: 65px 0 70px 0;
+}
+footer .logo_together {
+	margin-bottom: 60px;
 }
 footer .logo_together img {
 	width: 181px;
@@ -167,7 +338,7 @@ footer .logo_together img {
 }
 footer .fBak {
 	position: absolute;
-	bottom: 100px;
+	bottom: 50px;
 	width: 100%;
 	font-family: 'LatoBlack', sans-serif;
 	font-size: 505px;
