@@ -1,0 +1,179 @@
+/* CSS Document */
+
+@import url('lato.css');
+
+html, body {
+    font-family: 'LatoLight', sans-serif;
+	font-size: 17px;
+	line-height: 26px;
+	letter-spacing: 1.66px;
+	color: #000;
+}
+
+header {
+	height: 688px;
+	position: relative;
+	background-color: #17475B;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+header .container {
+	position: relative;
+	z-index: 99;
+}
+header h1 {
+	padding: 100px 0 50px 0;
+	margin: 0;
+}
+header h1 img {
+	max-width: 778px;
+	max-height: 179px;
+	margin: 0 auto;
+}
+header p {
+	max-width: 750px;
+	margin: 0 auto;
+	padding: 0 0 30px 0;
+}
+header .hBak {
+	position: absolute;
+	bottom: 100px;
+	width: 100%;
+	font-family: 'LatoBlack', sans-serif;
+	font-size: 505px;
+	/*color: #659BC5;*/
+	color: rgba(101, 155, 197, 0.15);
+	text-transform: uppercase;
+	letter-spacing: -10.38px;
+	/*overflow: hidden;*/
+}
+
+section[role="banner"] {
+	background: #B2BB1E;
+	/*height: 150px;*/
+}
+section[role="banner"] .save_the_date {
+	width: 488px;
+	margin: 0 auto;
+	padding: 35px 0 45px 0;
+}
+section[role="banner"] .ico_cal {
+	float: left;
+	padding-right: 30px;
+}
+section[role="banner"] .ico_cal img {
+	max-width: 71px;
+	max-height: 79px;
+}
+section[role="banner"] .save {
+	font-family: 'LatoBold', sans-serif;
+	font-size: 14px;
+	color: #17475B;
+	letter-spacing: 1.52px;
+	line-height: 24px;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+section[role="banner"] .nov21 {
+	font-family: 'LatoBlack', sans-serif;
+	font-size: 47px;
+	color: #FFF;
+	letter-spacing: 5.13px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+section[role="banner"] .ico_caret {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+}
+.ico_caret img {
+	width: 26px;
+	height: 13px;
+	vertical-align: top;
+}
+main {
+	text-align: center;
+}
+h2 {
+	font-family: 'LatoBold', sans-serif;
+	font-size: 35px;
+	color: #659BC5;
+	letter-spacing: 4.71px;
+}
+main blockquote {
+	font-family: 'LatoRegular', sans-serif;
+	font-size: 30px;
+	color: #659BC5;
+	letter-spacing: 1.78px;
+	line-height: 42px;
+	border-left: none;
+}
+main cite {
+	font-family: 'LatoRegular', sans-serif;
+	font-size: 14px;
+	color: #000;
+	letter-spacing: 1.36px;
+	line-height: 26px;
+	font-style: normal;
+}
+footer {
+	background-color: #17475B;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	height: 688px;
+	overflow: hidden;
+}
+footer .container {
+	position: relative;
+	z-index: 99;
+}
+footer h3 {
+	font-family: 'LatoLight', sans-serif;
+	font-size: 78px;
+	color: #FFFFFF;
+	letter-spacing: -0.5px;
+}
+footer h3 span {
+	font-family: 'LatoBold', sans-serif;
+	color: #B2BB1E;
+}
+footer h4 {
+	font-family: 'LatoBold', sans-serif;
+	font-size: 19px;
+	color: #FFFFFF;
+	letter-spacing: 1.84px;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+footer .photos img {
+	max-width: 300px;
+	max-height: 191px;
+}
+footer p {
+	font-family: 'LatoRegular', sans-serif;
+	font-size: 17px;
+	color: #FFF;
+	letter-spacing: 1.65px;
+	line-height: 26px;
+}
+footer .logo_together img {
+	width: 181px;
+	height: 104px;
+}
+footer .fBak {
+	position: absolute;
+	bottom: 100px;
+	width: 100%;
+	font-family: 'LatoBlack', sans-serif;
+	font-size: 505px;
+	/*color: #659BC5;*/
+	color: rgba(101, 155, 197, 0.15);
+	text-transform: uppercase;
+	letter-spacing: -10.38px;
+	/*overflow: hidden;*/
+}
